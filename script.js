@@ -1,14 +1,14 @@
 'use strict';
 
 const getImgBtn = document.querySelector('.button-img');
-const loaderContainer = document.querySelector('.loader-container');
+const loadingSpinner = document.querySelector('.spinner');
 
 const displayLoading = () => {
-  loaderContainer.style.display = 'block';
+  loadingSpinner.style.display = 'block';
 };
 
 const hideLoading = () => {
-  loaderContainer.style.display = 'none';
+  loadingSpinner.style.display = 'none';
 };
 
 const fetchData = async () => {
