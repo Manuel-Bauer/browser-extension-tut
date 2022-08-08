@@ -1,0 +1,11 @@
+{
+  "name": "Random Dog",
+  "version": "1.0.0",
+  "description": "Extension that returns a random dog.",
+  "manifest_version": 3,
+  "author": "Manuel Bauer",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Random Dog"
+  }
+}
